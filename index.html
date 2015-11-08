@@ -1,0 +1,33 @@
+<html>
+<head>
+  <title></title>
+  
+  <style type="text/css">
+    #x {
+      width: 25px;
+    }
+    .x-container .x-bar {
+      /*background: green;*/
+    }
+    /*#x div:not(:first-child):not(:last-child) {
+      background: green;
+    }*/
+  </style>
+
+</head>
+<body>
+
+  <div id="x" class="enis"></div>
+
+  <script src="animated-x.js"></script>
+  <script>
+    jeAnimatedX({
+      element: document.getElementById('x'),
+      // barHeight: 10,
+      // barGap: 10,
+      barCount: 3
+    });
+  </script>
+
+</body>
+</html>
